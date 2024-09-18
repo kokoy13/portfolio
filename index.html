@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth" id="home">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/output.css">
+    <style>
+        @keyframes infinite-scroll{
+            from {
+                transform: translateX(0);
+            }
+            to{
+                transform: translateX(-100%);
+            }
+        }
+        @keyframes spin{
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+    <title>Andika Firansyah</title>
+</head>
+<body class="bg-neutral-900 my-8 overflow-x-hidden">
+    <!-- CONTAINER -->
+    <div class="rounded-3xl px-12 mb-20 mx-12 ">
+        <!-- HEADER -->
+        <header class="flex justify-between items-center mb-12">
+            <!-- title -->
+            <div class="font-bold text-3xl text-sky-100">
+                <h1>An<span class="text-orange-400">dika.</span></h1>
+            </div>
+            <!-- navigation bar -->
+            <nav class="flex bg-neutral-900 justify-evenly gap-12 text-sky-100 font-medium py-6 px-12 rounded-b-3xl">
+                <a href="index.html">
+                    <span class="hover:text-orange-300 transform duration-300 ease-in-out ">
+                        Home
+                    </span>
+                </a>
+                <a href="#about">
+                    <span class="hover:text-orange-300 transform duration-300 ease-in-out ">
+                        About
+                    </span>
+                </a>
+                <a href="#">
+                    <span class="hover:text-orange-300 transform duration-300 ease-in-out ">
+                        Projects
+                    </span>
+                </a>
+                <a href="#experience">
+                    <span class="hover:text-orange-300 transform duration-300 ease-in-out ">
+                        Experience
+                    </span>
+                </a>
+                <a href="#">
+                    <span class="hover:text-orange-300 transform duration-300 ease-in-out ">
+                        Contact
+                    </span>
+                </a>
+            </nav>
+            <!-- projects platform -->
+            <div class="flex gap-3">
+                <a href="#" class="bg-sky-200 hover:bg-zinc-800 transform duration-300 ease-in-out p-3 rounded-md">
+                    <img loading="lazy" class="w-4" src="assets/linkedin.png" alt="">
+                </a>
+                <a href="#" class="bg-sky-200 hover:bg-zinc-800 transform duration-300 ease-in-out p-3 rounded-md">
+                    <img loading="lazy" class="w-4" src="assets/fiverr.png" alt="">
+                </a>
+                <a href="https://github.com/kokoy13" class="bg-sky-200 hover:bg-zinc-800 transform duration-300 ease-in-out p-3 rounded-md">
+                    <img loading="lazy" class="w-4" src="assets/github.png" alt="">
+                </a>
+            </div>
+        </header>
+        <!-- HERO SECTION -->
+        <section class="relative flex justify-between items-center">
+            <!-- scroll down button -->
+            <div class="animate-bounce absolute flex justify-center items-center left-1/2 w-20 border-[1px] h-20 self-end mb-10 border-white rounded-full">
+                <a href="#about" class="border-[6px] border-gray-200 h-[60px] w-[60px] px-2 py-2 rounded-full bg-white flex justify-center items-center hover:scale-[1.35] transform duration-500 ease-out">  
+                    <img loading="lazy" class="w-6 h-6 -rotate-90 items-center" src="assets/arrow-2.png" alt="">
+                </a>
+            </div>
+            <div class="flex flex-col gap-6 justify-between h-full">
+                <h1 class="text-warp -translate-y-10 text-5xl font-bold text-sky-100 leading-[60px]">Andika Firansyah <span class="font-normal">a passionate <span class="text-orange-400 font-bold">Front-End</span> Developer.</span></h1>
+                <div class="-translate-y-10">
+                    <p class="text-wrap text-sky-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, velit. Quod, eveniet impedit? Quaerat praesentium ad itaque sint est expedita.</p>
+                </div>
+                <a href="mailto::andikafiransyah1905@gmail.com" class="flex border-[2px] border-orange-400 hover:bg-orange-400 transform duration-300 ease-linear items-center justify-center w-max rounded-full" href="#">
+                    <div class="bg-orange-400 rounded-l-full rounded-tr-full font-bold px-8 py-4 text-sky-100">Hire Me</div>
+                    <div class="pl-2 pr-8 w-max">
+                        <img loading="lazy" src="assets/arrow.png" class="w-6 -rotate-45" alt="">
+                    </div>
+                </a>
+            </div>
+            <div class="rounded-md relative">
+                <div id="circle">
+                    <div class="absolute flex justify-center top-20 left-64 z-20 items-center rounded-full border-2 border-sky-100 w-20 h-20 -rotate-12">
+                        <span class="text-4xl font-semibold text-sky-100">01</span>
+                    </div>
+                    <h1 class="absolute font-semibold top-64 left-32 rotate-45 z-20 text-sky-100">1 Years of Experience</h1>
+                </div>
+                <img loading="lazy" style="filter: drop-shadow(1px 1px 20px #fb923c);" src="assets/profile.png" alt="">
+            </div>
+        </section>
+    </div>
+    <!-- CONTAINER 2-->
+    <div id="container-2">
+        <!-- ABOUT SECTION -->
+        <section class="text-neutral-300 mb-24 mx-12 ">
+            <div id="about" class="flex items-center gap-3 mb-10">
+                <div class="flex gap-10 items-center">
+                    <img loading="lazy" class="animate-bounce w-10 h-10 hover:scale-125 transform ease-out duration-500 cursor-pointer" src="assets/previous.png" alt="" onclick="window.location.href='#home'">
+                    <h1 class="text-6xl font-serif">About Me</h1>
+                </div>
+                <div>
+                    <img loading="lazy" class="w-9 h-9" src="assets/about.png" alt="">
+                </div>
+            </div>
+            <div class="flex items-stretch">
+                <div class="relative">
+                    <img loading="lazy" class="rounded-tr-[96px] rounded-bl-3xl h-full w-[85%] border-t-8 border-r-8" src="assets/phoenix.jpg" alt="">
+                    <h1 class="absolute top-1/2 -right-16 uppercase rotate-90 font-serif font-bold text-4xl tracking-wide">Andika Firansyah</h1>
+                </div>
+                <div class="flex flex-col gap-10">
+                    <div>   
+                        <p class="text-lg text-wrap ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, illo. Aliquam tempore amet quasi, odio veritatis dolorum, excepturi dolorem eum neque reiciendis sit doloribus numquam aliquid cum voluptates veniam inventore!</p>
+                    </div>
+                    <div class="flex flex-col gap-4 divide-y divide-dashed">
+                        <div class="flex justify-between items-center">   
+                            <div class="flex flex-col gap-1">
+                                <div>
+                                    <h1 class="text-white">Code Sphere</h1>
+                                </div>
+                                <div>
+                                    <span>Lead UI/UX</span>
+                                </div>
+                            </div>
+                            <div>
+                                <span>2024 - Ongoing</span>
+                            </div>
+                        </div>
+                        <div class="flex justify-between items-center pt-4">   
+                            <div class="flex flex-col gap-1">
+                                <div>
+                                    <h1 class="text-white">Code Sphere</h1>
+                                </div>
+                                <div>
+                                    <span>Lead UI/UX</span>
+                                </div>
+                            </div>
+                            <div>
+                                <span>2024 - Ongoing</span>
+                            </div>
+                        </div>
+                        <div class="flex justify-between items-center pt-4">   
+                            <div class="flex flex-col gap-1">
+                                <div>
+                                    <h1 class="text-white">Code Sphere</h1>
+                                </div>
+                                <div>
+                                    <span>Lead UI/UX</span>
+                                </div>
+                            </div>
+                            <div>
+                                <span>2024 - Ongoing</span>
+                            </div>
+                        </div>
+                        <div class="flex justify-between items-center pt-4">   
+                            <div class="flex flex-col gap-1">
+                                <div>
+                                    <h1 class="text-white">Code Sphere</h1>
+                                </div>
+                                <div>
+                                    <span>Lead UI/UX</span>
+                                </div>
+                            </div>
+                            <div>
+                                <span>2024 - Ongoing</span>
+                            </div>
+                        </div>
+                        <div class="flex justify-between items-center pt-4">   
+                            <div class="flex flex-col gap-1">
+                                <div>
+                                    <h1 class="text-white">Code Sphere</h1>
+                                </div>
+                                <div>
+                                    <span>Lead UI/UX</span>
+                                </div>
+                            </div>
+                            <div>
+                                <span>2024 - Ongoing</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- EXPERIENCE SECTION -->
+        <section id="experience" class="flex flex-col items-center gap-10">
+            <div class="flex items-center">
+                <h1 class="font-serif text-4xl text-neutral-300">Certified by</h1>
+                <img loading="lazy" class="w-12" src="assets/colon.png" alt="">
+            </div>
+            <div class="logo-container relative w-full transform flex bg-orange-400 rotate-1">
+                <div class="logo shrink-0 flex items-center gap-12 px-4" style="animation: infinite-scroll 8s linear infinite;">
+                    <div>
+                        <img loading="lazy" class="w-40 aspect-[3/2] object-contain" src="assets/dicoding.png" alt="">
+                    </div>
+                    <div>
+                        <img loading="lazy" class="w-20 aspect-[3/2] object-contain" src="assets/aws.png" alt="">
+                    </div>
+                    <div>
+                        <img loading="lazy" class="w-40 aspect-[3/2] object-contain" src="assets/RHLogo_white.svg" alt="">
+                    </div>
+                    <div>
+                        <img loading="lazy" class="w-40 aspect-[3/2] object-contain" src="assets/mikrotik.svg" alt="">
+                    </div>
+                    <div>
+                        <img loading="lazy" class="w-40 aspect-[3/2] object-contain" src="assets/dicoding.png" alt="">
+                    </div>
+                    <div>
+                        <img loading="lazy" class="w-20 aspect-[3/2] object-contain" src="assets/aws.png" alt="">
+                    </div>
+                    <div>
+                        <img loading="lazy" class="w-40 aspect-[3/2] object-contain" src="assets/RHLogo_white.svg" alt="">
+                    </div>
+                    <div>
+                        <img loading="lazy" class="w-40 aspect-[3/2] object-contain" src="assets/mikrotik.svg" alt="">
+                    </div>
+                </div>
+                <div style="animation: spin 10s linear infinite;" class="border-2 w-40 h-40 rounded-full border-teal-700 border-dashed absolute right-[44%] -top-6 z-20">
+                </div>
+                <a href="#contact" class="bg-teal-700 hover:scale-110 transition-transform ease-out duration-500 flex flex-col gap-[2px] justify-center items-center absolute rounded-full w-36 h-36 right-[44.6%] -top-[17px] z-20">
+                    <img loading="lazy"  class="w-5 h-5 -rotate-45" src="assets/arrow.png" alt="">
+                    <span class="text-nowrap text-sky-100">
+                        Let's Connect
+                    </span>
+                </a>
+            </div>
+        </section>
+    </div>
+
+    <script src="js/infinite-scroll.js"></script>
+</body>
+</html>
