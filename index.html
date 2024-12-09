@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./src/output.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Andika Firansyah</title>
@@ -60,7 +61,7 @@
         <!-- HERO SECTION -->
         <section class="relative flex justify-between items-center">
             <!-- scroll down button -->
-            <div class="animate-bounce absolute flex justify-center items-center left-1/2 w-20 border-[1px] h-20 self-end mb-10 border-white rounded-full">
+            <div class="animate-bounce absolute flex justify-center items-center left-1/2 w-20 border-[1px] h-20 self-end border-white rounded-full">
                 <a href="#about" class="border-[6px] border-gray-200 h-[60px] w-[60px] px-2 py-2 rounded-full bg-white flex justify-center items-center hover:scale-[1.35] transform duration-500 ease-out">  
                     <img loading="lazy" class="w-6 h-6 -rotate-90 items-center" src="assets/arrow-2.png" alt="">
                 </a>
@@ -70,19 +71,11 @@
                 <div class="-translate-y-10">
                     <p class="text-wrap text-sky-100">Focus on creating attractive and easy-to-use web interfaces. With skills in HTML, CSS, and JavaScript, I turn designs into responsive layouts with interactive features.</p>
                 </div>
-                <a href="mailto::andikafiransyah1905@gmail.com" class="flex border-[2px] border-gray-200 hover:bg-gray-200 transform duration-300 ease-linear items-center justify-center w-max bg-gray-200 font-bold px-8 py-4 text-black rounded-full" href="#">
+                <a href="mailto::andikafiransyah1905@gmail.com" class="flex transform transition-all duration-300 ease-linear items-center justify-center w-max bg-gray-200 font-bold px-8 py-4 text-black rounded-full hover:scale-110">
                     <div class="">Hire Me</div>
                 </a>
             </div>
-            <div class="rounded-md relative">
-                <div id="circle">
-                    <div class="absolute flex justify-center top-20 left-64 z-20 items-center rounded-full border-2 border-sky-100 w-20 h-20 -rotate-12">
-                        <span class="text-4xl font-semibold text-sky-100">02</span>
-                    </div>
-                    <h1 class="absolute font-semibold top-64 left-32 rotate-45 z-20 text-sky-100">2 Years of Experience</h1>
-                </div>
-                <img loading="lazy" style="filter: drop-shadow(1px 1px 20px #60a5fa);" src="assets/profile.png" alt="">
-            </div>
+            <img loading="lazy" class="w-1/3 grayscale hover:grayscale-0 transition-all duration-300 ease-out" src="assets/andika2.png" alt="">
         </section>
     </div>
     <!-- CONTAINER 2-->
@@ -99,8 +92,8 @@
                 </div>
             </div>
             <div class="flex">
-                <div class="relative">
-                    <img loading="lazy" class="rounded-tr-[96px] rounded-bl-3xl h-full w-[85%] border-t-8 border-r-8" src="assets/test2.jpg" alt="">
+                <div class="relative ">
+                    <img loading="lazy" class="rounded-tr-[96px] rounded-bl-3xl h-full w-[85%] border-t-8 border-r-8 " src="assets/test2.jpg" alt="">
                     <h1 class="absolute top-1/2 -right-16 uppercase rotate-90 font-serif font-bold text-4xl tracking-wide text-neutral-900">Andika Firansyah</h1>
                 </div>
                 <div class="flex flex-col gap-10">
@@ -223,7 +216,7 @@
         </section>
 
         <!-- Skill Section -->
-        <section id="skills" class="mx-12 mb-24 flex gap-10 flex-col text-gray-200 items-center">
+        <section id="skill" class="mx-12 mb-24 flex gap-10 flex-col text-gray-200 items-center">
             <!-- Header -->
             <div class="flex flex-col items-center w-max gap-3">
                 <h1 class="text-4xl font-serif">My Skill</h1>
@@ -287,10 +280,175 @@
         </section>
 
         <!-- Project Section -->
-        <section id="projects" class="mx-12 mb-24 flex gap-10 flex-col text-gray-200 items-center">
+        <section id="projects" class="mx-12 mb-24 flex gap-5 flex-col text-gray-200 items-center">
             <!-- Header -->
             <div class="flex flex-col items-center w-max gap-3">
                 <h1 class="text-4xl font-serif">Projects</h1>
+            </div>
+            <!-- Project Categories -->
+            <div class="flex justify-center items-center text-black gap-5 flex-wrap max-w-xl mb-5">
+                <div class="bg-gray-300 rounded-full font-semibold uppercase text-sm text-center px-3 hover:bg-white transition-colors duration-200 cursor-pointer">
+                    Landing Page
+                </div>
+                <div class="bg-gray-300 rounded-full font-semibold uppercase text-sm text-center px-3 hover:bg-white transition-colors duration-200 cursor-pointer">
+                    Redesign
+                </div>
+                <div class="bg-gray-300 rounded-full font-semibold uppercase text-sm text-center px-3 hover:bg-white transition-colors duration-200 cursor-pointer">
+                    UI/UX
+                </div>
+                <div class="bg-gray-300 rounded-full font-semibold uppercase text-sm text-center px-3 hover:bg-white transition-colors duration-200 cursor-pointer">
+                    UI/UX Implementation
+                </div>
+                <div class="bg-gray-300 rounded-full font-semibold uppercase text-sm text-center px-3 hover:bg-white transition-colors duration-200 cursor-pointer">
+                    Dashboard
+                </div>
+                <div class="bg-gray-300 rounded-full font-semibold uppercase text-sm text-center px-3 hover:bg-white transition-colors duration-200 cursor-pointer">
+                    Single Page Application
+                </div>
+                <div class="bg-gray-300 rounded-full font-semibold uppercase text-sm text-center px-3 hover:bg-white transition-colors duration-200 cursor-pointer">
+                    Web Application
+                </div>
+            </div>
+            <!-- Projects -->
+            <div class="flex gap-5 flex-wrap justify-center max-w-full">
+                <!-- Cheapflight -->
+                <div class="flex mb-5 relative justify-center w-[600px] h-[300px] bg-cover bg-no-repeat" style="background-image: url('assets/cheapflight.png');">
+                
+                    <div class="absolute top-0 left-0 px-3 py-1 bg-gray-200 z-50 text-black font-semibold">2024</div>
+                    <div class="absolute bg-neutral-900 top-0 bottom-0 left-0 right-0 bg-opacity-70"></div>
+                    <div class="flex flex-col gap-3 justify-center items-center relative z-10">
+                        <h1 class="text-white font-bold text-2xl font-serif">Cheapflight</h1>
+                        <span class="text-sm text-wrap px-5 text-center text-white font-semibold mb-5">Search and compare millions of flight deals for free, Find Cheap from 1000s of airlines and travel agents, Car Rental Made Simple and Where do you Want to Stay?</span>
+                        <div class="flex gap-5 mb-5">
+                            <div class="px-3 py-1 rounded-lg bg-gray-200 text-black font-semibold text-sm">
+                                HTML 5
+                            </div>
+                            <div class="px-3 py-1 rounded-lg bg-gray-200 text-black font-semibold text-sm">
+                                CSS 3
+                            </div>
+                            <div class="px-3 py-1 rounded-lg bg-gray-200 text-black font-semibold text-sm">
+                                Javascript
+                            </div>
+                            <div class="px-3 py-1 rounded-lg bg-gray-200 text-black font-semibold text-sm">
+                                React
+                            </div>
+                            <div class="px-3 py-1 rounded-lg bg-gray-200 text-black font-semibold text-sm">
+                                Tailwind
+                            </div>
+                            <div class="px-3 py-1 rounded-lg bg-gray-200 text-black font-semibold text-sm">
+                                Vite
+                            </div>
+                        </div>      
+                    </div>
+                    <a class="py-1 bg-neutral-900 bg-opacity-70 absolute left-0 right-0 bottom-0 text-center text-gray-200 font-bold hover:bg-opacity-100 z-30 duration-500 transition-colors" href="https://cheapflight.vercel.app/" target="_blank">See Project</a>
+                </div>
+                <!-- Mustika Jaya Teknik -->
+                <div class="flex mb-5 relative justify-center w-[600px] h-[300px] bg-cover bg-no-repeat" style="background-image: url('assets/mustika.JPG');">
+                    <div class="absolute top-0 left-0 px-3 py-1 bg-gray-200 z-40 text-black font-semibold">2024</div>
+                    <div class="absolute bg-neutral-900 top-0 bottom-0 left-0 right-0 bg-opacity-70"></div>
+                    <img src="assets/green.png" class="w-5 absolute -left-2 -top-2 z-50" alt="">
+                    <a class="py-1 bg-neutral-900 bg-opacity-70 absolute left-0 right-0 bottom-0 text-center text-gray-200 font-bold hover:bg-opacity-100 z-30 duration-500 transition-colors" href="https://mustikajayateknik23.com/" target="_blank">See Project</a>
+                    <div class="flex flex-col gap-3 justify-center items-center relative z-10">
+                        <h1 class="text-white font-bold text-2xl font-serif">Mustika Jaya Teknik</h1>
+                        <span class="text-sm text-wrap px-5 text-center text-white font-semibold mb-5">Electronic Repair Services
+                            in Jakarta - Bekasi. Is your refrigerator having problems? Your AC is not cold? or your washing machine is not working? You are in the hands of the experts, We are ready to help you anytime.</span>
+                        <div class="flex gap-5">
+                            <div class="px-3 py-1 rounded-lg bg-gray-200 text-black font-semibold text-sm">
+                                HTML 5
+                            </div>
+                            <div class="px-3 py-1 rounded-lg bg-gray-200 text-black font-semibold text-sm">
+                                CSS 3
+                            </div>
+                            <div class="px-3 py-1 rounded-lg bg-gray-200 text-black font-semibold text-sm">
+                                Tailwind
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Sadena Auto Inspeksi -->
+                <div class="flex mb-5 relative justify-center w-[600px] h-[300px] bg-cover bg-no-repeat" style="background-image: url('assets/sadena.JPG');">
+                    <div class="absolute top-0 left-0 px-3 py-1 bg-gray-200 z-50 text-black font-semibold">2024</div>
+                    <div class="absolute bg-neutral-900 top-0 bottom-0 left-0 right-0 bg-opacity-70"></div>
+                    <a class="py-1 bg-neutral-900 bg-opacity-70 absolute left-0 right-0 bottom-0 text-center text-gray-200 font-bold hover:bg-opacity-100 z-30 duration-500 transition-colors" href="https://sadena-auto-inspeksi.vercel.app/" target="_blank">See Project</a>
+                    <div class="flex flex-col gap-3 justify-center items-center relative z-10">
+                        <h1 class="text-white font-bold text-2xl font-serif">Sadena Auto Inspeksi</h1>
+                        <span class="text-sm text-wrap px-5 text-center text-white font-semibold">Auto Inspection and Safety Driving
+                            Provides basic knowledge about Car inspection, Driving Course, Safety Driving Training, and Specialist Safety Driving Training.</span>
+                        <div class="flex gap-5">
+                            <div class="px-3 py-1 rounded-lg bg-gray-200 text-black font-semibold text-sm">
+                                HTML 5
+                            </div>
+                            <div class="px-3 py-1 rounded-lg bg-gray-200 text-black font-semibold text-sm">
+                                CSS 3
+                            </div>
+                            <div class="px-3 py-1 rounded-lg bg-gray-200 text-black font-semibold text-sm">
+                                Javascript
+                            </div>
+                            <div class="px-3 py-1 rounded-lg bg-gray-200 text-black font-semibold text-sm">
+                                Tailwind
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- MyHomework -->
+                <div class="flex mb-5 relative justify-center w-[600px] h-[300px] bg-cover bg-no-repeat" style="background-image: url('assets/myhomework.JPG');">
+                    <div class="absolute top-0 left-0 px-3 py-1 bg-gray-200 z-50 text-black font-semibold">2024</div>
+                    <div class="absolute bg-neutral-900 top-0 bottom-0 left-0 right-0 bg-opacity-70"></div>
+                    <a class="py-1 bg-neutral-900 bg-opacity-70 absolute left-0 right-0 bottom-0 text-center text-gray-200 font-bold hover:bg-opacity-100 z-30 duration-500 transition-colors" href="https://myhomeworkk.vercel.app/" target="_blank">See Project</a>
+                    <div class="flex flex-col gap-3 justify-center items-center relative z-10">
+                        <h1 class="text-white font-bold text-2xl font-serif">My Homework</h1>
+                        <span class="text-sm text-wrap px-5 text-center text-white font-semibold">Website for Input, Search, and Everything about your Homework</span>
+                        <div class="flex gap-5">
+                            <div class="px-3 py-1 rounded-lg bg-gray-200 text-black font-semibold text-sm">
+                                HTML 5
+                            </div>
+                            <div class="px-3 py-1 rounded-lg bg-gray-200 text-black font-semibold text-sm">
+                                CSS 3
+                            </div>
+                            <div class="px-3 py-1 rounded-lg bg-gray-200 text-black font-semibold text-sm">
+                                Javascript
+                            </div>
+                            <div class="px-3 py-1 rounded-lg bg-gray-200 text-black font-semibold text-sm">
+                                React
+                            </div>
+                            <div class="px-3 py-1 rounded-lg bg-gray-200 text-black font-semibold text-sm">
+                                Tailwind
+                            </div>
+                            <div class="px-3 py-1 rounded-lg bg-gray-200 text-black font-semibold text-sm">
+                                Vite
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Media Cerdas News -->
+                <!-- <div class="flex mb-5 relative justify-center w-[600px] h-[300px] bg-cover bg-no-repeat" style="background-image: url('assets/cheapflight.png');">
+                    <div class="absolute top-0 left-0 px-3 py-1 bg-gray-200 z-50 text-black font-semibold">2024</div>
+                    <div class="absolute bg-neutral-600 top-0 bottom-0 left-0 right-0 bg-opacity-60"></div>
+                    <div class="flex flex-col gap-3 justify-center items-center relative z-10">
+                        <h1 class="text-white font-bold text-2xl font-serif">Cheapflight</h1>
+                        <span class="text-sm text-wrap px-5 text-center text-white font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quibusdam aspernatur? Corrupti inventore recusandae impedit quis molestias deleniti. Veritatis, earum?</span>
+                        <div class="flex gap-5">
+                            <div class="px-3 py-1 rounded-lg text-gray-200 bg-black font-semibold">
+                                HTML 5
+                            </div>
+                            <div class="px-3 py-1 rounded-lg text-gray-200 bg-black font-semibold">
+                                CSS 3
+                            </div>
+                            <div class="px-3 py-1 rounded-lg text-gray-200 bg-black font-semibold">
+                                Javascript
+                            </div>
+                            <div class="px-3 py-1 rounded-lg text-gray-200 bg-black font-semibold">
+                                React
+                            </div>
+                            <div class="px-3 py-1 rounded-lg text-gray-200 bg-black font-semibold">
+                                Tailwind
+                            </div>
+                            <div class="px-3 py-1 rounded-lg text-gray-200 bg-black font-semibold">
+                                Vite
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
             </div>
         </section>
         <section>
