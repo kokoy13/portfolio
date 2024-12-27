@@ -659,8 +659,16 @@ video {
   inset: -0.25rem;
 }
 
+.-left-2 {
+  left: -0.5rem;
+}
+
 .-right-16 {
   right: -4rem;
+}
+
+.-top-2 {
+  top: -0.5rem;
 }
 
 .-top-6 {
@@ -691,10 +699,6 @@ video {
   right: 0px;
 }
 
-.right-1 {
-  right: 0.25rem;
-}
-
 .right-\[44\%\] {
   right: 44%;
 }
@@ -709,62 +713,6 @@ video {
 
 .top-1\/2 {
   top: 50%;
-}
-
-.-right-0\.5 {
-  right: -0.125rem;
-}
-
-.right-0\.5 {
-  right: 0.125rem;
-}
-
-.right-1\.5 {
-  right: 0.375rem;
-}
-
-.top-0\.5 {
-  top: 0.125rem;
-}
-
-.-top-0\.5 {
-  top: -0.125rem;
-}
-
-.-top-2 {
-  top: -0.5rem;
-}
-
-.-top-3 {
-  top: -0.75rem;
-}
-
-.-top-\[10px\] {
-  top: -10px;
-}
-
-.-top-\[11px\] {
-  top: -11px;
-}
-
-.-top-\[12px\] {
-  top: -12px;
-}
-
-.-right-5 {
-  right: -1.25rem;
-}
-
-.-right-3 {
-  right: -0.75rem;
-}
-
-.-right-2 {
-  right: -0.5rem;
-}
-
-.-left-2 {
-  left: -0.5rem;
 }
 
 .isolate {
@@ -787,12 +735,12 @@ video {
   z-index: 30;
 }
 
-.z-50 {
-  z-index: 50;
-}
-
 .z-40 {
   z-index: 40;
+}
+
+.z-50 {
+  z-index: 50;
 }
 
 .float-start {
